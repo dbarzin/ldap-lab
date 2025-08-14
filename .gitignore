@@ -1,0 +1,17 @@
+# Ignore generated certificates
+certs/
+*.crt
+*.key
+*.csr
+*.srl
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore composer/vendor if PHP dependencies are used
+/vendor/
+/composer.lock
